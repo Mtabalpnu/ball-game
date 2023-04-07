@@ -1,0 +1,22 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gameCanvas {
+    display: block;
+    background-color: #000;
+    margin: 20px auto;
+    cursor: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}

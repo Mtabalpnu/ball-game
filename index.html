@@ -1,48 +1,21 @@
-<!--index.html-->
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Fruits Game</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-        <link rel="stylesheet" href="styling.css">
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-    </head>
-    
-    <body>
-        <div id="container">
-            <div id="score">
-                Score: <span id="scorevalue">0</span>
-            </div>
-            <div id="trialsLeft">
-                
-            </div>
-            <div id="correct">
-                Correct
-            </div>
-            <div id="wrong">
-                Try again
-            </div>
-            <div id="fruitsContainer">
-                <img id="fruit1" class="fruit">
-            </div>
-            <div id="instruction">
-                Catch Fruits
-            </div>
-            <div id="startreset">
-                Start Game
-            </div>
-            <div id="gameOver">
-                
-            </div>
-        </div>
-        <audio id="slicesound">
-            <source src="audio/slicefruit.mp3"></source>
-            <source src="audio/slicefruit.ogg"></source>
-        </audio>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js">
-    </script>
-        <script src="jquery.js"></script>
-    </body>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Пінг Понг</h1>
+        <p>Рахунок: <span id="score">0</span></p>
+        <button id="startBtn">Почати гру</button>
+        <canvas id="gameCanvas" width="600" height="400"></canvas>
+    </div>
+    <footer>
+        <p>Marko Tabashychyn KI-44 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
